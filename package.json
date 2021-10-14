@@ -1,5 +1,5 @@
 {
-  "name": "@Sigma/Front_Test_composite",
+  "name": "@Sigma/front_soe_composite",
   "scripts": {
     "start": "webpack serve --port 9000 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
