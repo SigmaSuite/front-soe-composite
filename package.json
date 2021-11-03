@@ -1,7 +1,7 @@
 {
-  "name": "@Sigma/front_soe_composite",
+  "name": "@Sigma/front-soe-composite",
   "scripts": {
-    "start": "webpack serve --port 9000 --env isLocal",
+    "start": "webpack serve --port 4200 --env isLocal",
     "lint": "eslint src --ext js,ts,tsx",
     "test": "cross-env BABEL_ENV=test jest --passWithNoTests",
     "format": "prettier --write .",
