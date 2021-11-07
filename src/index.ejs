@@ -37,7 +37,9 @@
    <script type="systemjs-importmap">
     {
       "imports": {
-        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.1/lib/system/single-spa.min.js"
+        "single-spa": "https://cdn.jsdelivr.net/npm/single-spa@5.9.1/lib/system/single-spa.min.js",
+        "rxjs": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs.min.js",
+        "rxjs/operators": "https://cdn.jsdelivr.net/npm/@esm-bundle/rxjs/system/es2015/rxjs-operators.min.js"
       }
     }
   </script>
@@ -65,9 +67,9 @@
   <script type="systemjs-importmap">
     {
       "imports": {
-        "@Sigma/root-config": "//localhost:30007/Sigma-root-config.js",
-        "@Sigma/site-map": "//localhost:30008/main.js",
-        "@Sigma/calendar": "//localhost:4202/main.js"
+        "@Sigma/root-config": "https://kubernetes.docker.internal/soe/Sigma-root-config.js",
+        "@Sigma/site-map": "https://kubernetes.docker.internal/module/site-map/main.js",
+        "@Sigma/auth": "https://kubernetes.docker.internal/module/auth/main.js"
       }
     }
   </script>
